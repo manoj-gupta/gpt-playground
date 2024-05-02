@@ -1,0 +1,34 @@
+chromadb==0.4.15
+fastembed==0.2.6
+
+# langchain
+langchain==0.1.13
+langchain-cli==0.0.21
+langchain-community==0.0.30
+langchain-core==0.1.37
+langchain-experimental==0.0.55
+langchain-openai==0.1.1
+langchain-text-splitters==0.0.1
+langserve==0.0.51
+langsmith==0.1.36
+
+# openai
+openai==1.14.2
+
+# openapi
+openapi-pydantic==0.4.0
+
+# pdf
+pypdf==4.1.0
+
+# streamlit
+streamlit==1.33.0
+streamlit_chat==0.1.1
+
+# faiss
+faiss-cpu==1.8.0
+
+# downgraded for error:
+# Using pydantic 2.6.4. OpenAPI docs for invoke, batch, stream,
+# stream_log endpoints will not be generated.
+pydantic==1.10.13
