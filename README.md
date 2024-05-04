@@ -15,3 +15,22 @@ Activate virtual environment on Unix or MacOS, using:
 ```
 source playground-env/bin/activate
 ```
+
+## Install Ollama
+
+Follow instructions on Ollama [website](https://ollama.com/download/linux)
+
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Pull the model you want to use (e.g. llama2)
+```
+ollama run llama2
+```
+
+## Install dependencies
+
+```
+pip3 install -r requirements.txt
+```
